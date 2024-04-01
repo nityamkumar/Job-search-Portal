@@ -12,6 +12,7 @@ import { ActivatedRoute, Router, RouterModule } from '@angular/router';
   selector: 'app-jobitem-details',
   standalone: true,
   imports: [NgFor, NgIf, CommonModule, RouterModule, HttpClientModule],
+  providers: [JobSearchInfoService],
   templateUrl: './jobitem-details.component.html',
   styleUrl: './jobitem-details.component.css'
 })
